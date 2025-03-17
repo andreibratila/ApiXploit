@@ -1,0 +1,54 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Build output
+/dist
+/build
+/.next
+/out
+
+# Docker
+.docker/
+docker-compose.override.yml
+docker-compose.yml
+
+# Typescript
+*.tsbuildinfo
+
+# Logs
+*.log
+
+# .env files (for environment variables)
+.env
+.env.local
+.env.*.local
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# npm package lock
+package-lock.json
+
+# Next.js
+.next/
+
+# Prisma
+prisma/migrations/
+
+# Coverage directory used by testing tools
+coverage/

